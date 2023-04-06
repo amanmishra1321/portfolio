@@ -1,0 +1,9 @@
+.customise-input{
+    width: 100%;
+    display: block;
+    line-height: 1.5;
+    font-size: 1rem;
+    height: auto;
+    padding: 14px 20px;
+    resize: none;
+}

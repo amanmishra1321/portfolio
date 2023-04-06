@@ -1,4 +1,44 @@
+.secondary-text{
+  color: var(--secondaryColor) !important;
+}
+.main-heading{
+  color: #ff5d56 !important;
+}
+.light-theme{
+  --backgroundColor:white ;
+  --textColor:black;
+  --background1:white;
+  --border:black;
+  --secondaryColor:#707070;
+}
+
+.dark-theme{
+  --backgroundColor:black;
+  --textColor:white;
+  --secondaryColor:#707070;
+  --background1:#222;
+  --border:white;
+}
+
+
+*{
+  color: var(--textColor) !important;
+  background-color: var(--backgroundColor) !important;
+  border-color: var(--border);
+}
+
+
+
 html {
-    height: 100%;
+  min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
   }
   
+body {
+    margin: 0;
+    min-height: 100%;
+    width: 100%;
+}

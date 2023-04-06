@@ -1,0 +1,40 @@
+.card-background{
+   background-color: #222 !important; 
+}
+
+/* .my-card{
+   border:1px solid white !important;
+   transform: scaleX(1);  
+   transition: transform 250ms ease-in-out;
+}
+.my-card:hover{
+   border: 1px solid red !important;
+   transform: scaleX(1);
+} */
+
+/* .my-card:after {
+   display:block;
+   content: '';
+   border: solid 3px #019fb6;  
+   transform: scaleX(0);  
+   transition: transform 250ms ease-in-out;
+ }
+ .my-card:hover:after { transform: scaleX(1); } */
+
+ /* .my-card {
+
+   --border-color: purple !important;
+   --border-width: 5px;
+   --bottom-distance: 0px; 
+   
+   color: #666 !important;
+   display: inline-block;
+   background-image: linear-gradient(var(--border-color), var(--border-color));
+   background-size: 0% var(--border-width);
+   background-repeat: no-repeat;
+   transition: background-size 0.3s;
+   margin: 5px 0;
+ }
+ .my-card1 {
+   background-position: 50% calc(100% - var(--bottom-distance));
+ } */

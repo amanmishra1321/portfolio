@@ -1,0 +1,9 @@
+.customise-line{
+    color: #ff5d56 !important;
+    line-height: 1rem;
+    border-top:2px solid !important;
+    opacity:0.75;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 5vw;
+}
