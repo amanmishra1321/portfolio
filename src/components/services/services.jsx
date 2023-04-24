@@ -13,7 +13,7 @@ const Services = () => {
       <h2 className="main-heading heading-name text-center">My Services</h2>
       <div className="text-center">
         <div>
-          Lorem ipsum dolor sit amet consectetur
+          Transforming your vision into a digital reality.
           <div>
             <span className="dot my-3"></span>&nbsp;&nbsp;
             <span className="dot my-3"></span>&nbsp;&nbsp;

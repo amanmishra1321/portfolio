@@ -95,7 +95,7 @@ const AboutMe = () => {
                       <HiOutlineMail />
                     </span>
                     <span className="fw-bolder">Email:</span>{" "}
-                    amishra1320@gmail.com
+                    amanmishra1321@gmail.com
                   </div>
                   <div className="my-3">
                     <span className="pe-3">

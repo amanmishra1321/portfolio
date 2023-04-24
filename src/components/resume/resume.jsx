@@ -4,7 +4,10 @@ const Resume = () => {
       <div className="container" id="resume">
         <div className="text-center">
           <h2 className="main-heading heading-name">My Resume</h2>
-          <div className="secondary-text">Lorem Ipsum dolor sit amel</div>
+          <div className="secondary-text">
+            Experienced professional committed to continuous learning and
+            growth.
+          </div>
           <div>
             <span className="dot my-3"></span>&nbsp;&nbsp;
             <span className="dot my-3"></span>&nbsp;&nbsp;
@@ -128,7 +131,7 @@ const Resume = () => {
                   Black Jab Group
                 </h2>
                 <span className="position-relative" style={{ zIndex: "100" }}>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Your partner in growth and success.
                 </span>
               </div>
             </div>
@@ -143,7 +146,7 @@ const Resume = () => {
                 </h2>
 
                 <span className="position-relative" style={{ zIndex: "100" }}>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Democratizing Education
                 </span>
               </div>
             </div>
@@ -157,7 +160,7 @@ const Resume = () => {
                   RWS Moravia
                 </h2>
                 <span className="position-relative" style={{ zIndex: "100" }}>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Creating a world where content is always relevant
                 </span>
               </div>
             </div>

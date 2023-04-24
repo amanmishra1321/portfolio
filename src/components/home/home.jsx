@@ -28,7 +28,18 @@ const Home = () => {
               small businesses to large corporations, to develop custom websites
               and algorithms tailored to their unique needs.
             </p>
-            <button className="my-5 p-3 rounded border-2">Download CV</button>
+            <button
+              className="my-5 p-3 rounded border-2 text-decoration-none"
+              // href="https://drive.google.com/file/d/131vGQnl5C-18Cj_BiI65lKAtRKbA26wk/view?usp=share_link"
+            >
+              <a
+                className="text-decoration-none"
+                href="https://drive.google.com/file/d/131vGQnl5C-18Cj_BiI65lKAtRKbA26wk/view?usp=share_link"
+                download="Aman's Resume"
+              >
+                Download CV
+              </a>
+            </button>
           </div>
           <div className="col-lg-6 col-md-12">
             <img src={MyProfile} className="img-fluid" alt="" />
