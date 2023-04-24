@@ -1,8 +1,5 @@
 import "./card.css";
 
-import { useEffect } from "react";
-import { SiXdadevelopers } from "react-icons/si";
-
 const Card = (props) => {
   return (
     <div className="card">
