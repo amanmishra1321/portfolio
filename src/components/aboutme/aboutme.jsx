@@ -8,7 +8,9 @@ import { BsInstagram, BsFlag, BsGlobe } from "react-icons/bs";
 const AboutMe = () => {
   return (
     <>
-      <h2 className="text-center heading-name main-heading">About Me</h2>
+      <h2 className="text-center heading-name main-heading" id="about">
+        About Me
+      </h2>
       <div className="text-center">
         Professional Profile - There Is All About Me
         <div>
@@ -30,10 +32,19 @@ const AboutMe = () => {
               style={{ width: "10%", height: "4px" }}
             />
             <p className="secondary-text">
-            As an algorithm expert, I have skilled in designing and implementing complex algorithms to solve a variety of problems, from data analysis to optimization. The expertise in this area allows me to develop algorithms that are accurate, and reliable, making them a valuable asset to any project.
+              As an algorithm expert, I have skilled in designing and
+              implementing complex algorithms to solve a variety of problems,
+              from data analysis to optimization. The expertise in this area
+              allows me to develop algorithms that are accurate, and reliable,
+              making them a valuable asset to any project.
             </p>
             <p className="secondary-text">
-            Whether you're looking to build a new website from scratch or improve an existing one, I have the skills and expertise to deliver results that exceed your expectations. With a focus on delivering high-quality work on time and on budget, I am committed to helping clients achieve their goals and grow their businesses online.
+              Whether you're looking to build a new website from scratch or
+              improve an existing one, I have the skills and expertise to
+              deliver results that exceed your expectations. With a focus on
+              delivering high-quality work on time and on budget, I am committed
+              to helping clients achieve their goals and grow their businesses
+              online.
             </p>
             <div className="container">
               <div className="row">

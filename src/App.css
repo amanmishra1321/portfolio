@@ -90,3 +90,8 @@
     color: #ff5d56 !important;
     border-color: #ff5d56 !important;
   }
+
+  .text-decoration-none{
+    text-decoration: none;
+  }
+ 

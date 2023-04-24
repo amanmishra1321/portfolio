@@ -4,7 +4,7 @@ import "./home.css";
 const Home = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="home">
         <div className="row">
           <div
             className="col-lg-6 col-md-12"
@@ -22,7 +22,11 @@ const Home = () => {
             />
             <br />
             <p className="w-90 d-block fs-20 secondary-text">
-            I am, a website developer and algorithm expert with a passion for creating innovative solutions. With 2+ years of experience in the industry, I have worked with a diverse range of clients, from small businesses to large corporations, to develop custom websites and algorithms tailored to their unique needs.
+              I am, a website developer and algorithm expert with a passion for
+              creating innovative solutions. With 2+ years of experience in the
+              industry, I have worked with a diverse range of clients, from
+              small businesses to large corporations, to develop custom websites
+              and algorithms tailored to their unique needs.
             </p>
             <button className="my-5 p-3 rounded border-2">Download CV</button>
           </div>

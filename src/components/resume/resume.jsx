@@ -1,7 +1,7 @@
 const Resume = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="resume">
         <div className="text-center">
           <h2 className="main-heading heading-name">My Resume</h2>
           <div className="secondary-text">Lorem Ipsum dolor sit amel</div>

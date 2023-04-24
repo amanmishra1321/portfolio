@@ -3,7 +3,7 @@ import RectangleCard from "../rectangle-card/rectangleCard";
 const Contact = () => {
   return (
     <>
-      <div className="container my-5">
+      <div className="container my-5" id="contact">
         <div className="text-center">
           <h2 className="main-heading heading-name">Get in touch</h2>
           <p>Feel free to drop me a line - Contact us</p>
