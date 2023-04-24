@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 const Navbar = () => {
   const [theme, setTheme] = useState("dark-theme");
   const changeTheme = () => {
-    console.log("Clicked", theme);
     theme === "light-theme" ? setTheme("dark-theme") : setTheme("light-theme");
   };
   useEffect(() => {

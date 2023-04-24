@@ -41,7 +41,7 @@ const Contact = () => {
         <div className="container">
           <div className="col-md-8 offset-md-2">
             <div className="row gx-5 ">
-              <form ref={form} onSubmit={sendEmail}>
+              <form ref={form} onSubmit={sendEmail} className="col-xs-12 row ">
                 <div className="col-lg-6 col-md-12 my-3">
                   <input
                     type="text"
@@ -101,6 +101,8 @@ const Contact = () => {
               heading="Address"
               firstLine="Janta Quater Nanda Nagar"
               secondLine="Indore (Madhya Pradesh) , India."
+              reference1="!#"
+              reference2="!#"
             />
           </div>
           <div className="col-lg-4 col-md-12">
@@ -108,6 +110,8 @@ const Contact = () => {
               heading="Phone"
               firstLine="+91 7898971320 "
               secondLine="+91 8269322542 "
+              reference1="tel:+917898971320"
+              reference2="tel:+918269322542"
             />
           </div>
           <div className="col-lg-4 col-md-12">
@@ -115,6 +119,8 @@ const Contact = () => {
               heading="Email"
               firstLine="amanmishra1321@gmail.com "
               secondLine="amishra1320@gmail.com"
+              reference1="mailto:amanmishra1321@gmail.com"
+              reference2="mailto:amishra1320@gmail.com"
             />
           </div>
         </div>

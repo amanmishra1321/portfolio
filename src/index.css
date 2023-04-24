@@ -24,8 +24,18 @@
 *{
   color: var(--textColor) !important;
   background-color: var(--backgroundColor) !important;
-  border-color: var(--border);
+  border-color: var(--border) !important;
 }
+
+input:focus{
+  outline: none !important;
+}
+
+
+textarea:focus{
+  outline: none !important;
+}
+
 
 
 

@@ -9,7 +9,7 @@ import { MdWeb } from "react-icons/md";
 
 const Services = () => {
   return (
-    <div className="my-5 py-5" id="services">
+    <div className="my-5 py-md-5" id="services">
       <h2 className="main-heading heading-name text-center">My Services</h2>
       <div className="text-center">
         <div>
@@ -28,7 +28,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-12">
             <Card
               heading={"Web Design"}
-              icon={<SiAntdesign />}
+              icon={<SiAntdesign size={"2rem"} />}
               text={
                 "Experienced website developer with a passion for creating innovative solutions. Committed to delivering high-quality work that exceeds expectations."
               }
@@ -37,7 +37,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-12">
             <Card
               heading={"Front End Developer"}
-              icon={<SiXdadevelopers />}
+              icon={<SiXdadevelopers size={"2rem"} />}
               text={
                 "Experienced FrontEnd developer with expertise in creating responsive and user-friendly websites. Committed to delivering results that enhance user experience."
               }
@@ -46,9 +46,9 @@ const Services = () => {
           <div className="col-lg-4 col-md-12">
             <Card
               heading={"Backend Developer"}
-              icon={<MdWeb />}
+              icon={<MdWeb size={"2rem"} />}
               text={
-                "With a wealth of expertise in BackEnd development, I specialize in crafting intricate web applications that demand robustness, scalability, and security."
+                "With a wealth of expertise in BackEnd development, I specialize in crafting intricate web applications that demand robustness, scalability, and security with python."
               }
             />
           </div>
@@ -57,7 +57,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-12">
             <Card
               heading={"Python Developer (CP)"}
-              icon={<MdDeveloperMode />}
+              icon={<MdDeveloperMode size={"2rem"} />}
               text={
                 "As a seasoned Python developer and accomplished competitive programmer, I leverage my expertise to solve complex algorithmic problems with efficiency, elegance,precision and in optimized way"
               }
@@ -66,7 +66,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-12">
             <Card
               heading={"Security Expert"}
-              icon={<MdSecurity />}
+              icon={<MdSecurity size={"2rem"} />}
               text={
                 "As a skilled security expert and ethical hacker, I employ my extensive knowledge of cyber threats and vulnerabilities to ensure websites and networks remain secure against malicious attacks."
               }
@@ -75,7 +75,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-12">
             <Card
               heading={"Machine Learning Expert"}
-              icon={<GiArtificialIntelligence />}
+              icon={<GiArtificialIntelligence size={"2rem"} />}
               text={
                 "As a proficient Machine Learning expert, I possess a deep understanding of advanced algorithms and statistical models, leveraging these skills to deliver intelligent and data-driven solutions."
               }

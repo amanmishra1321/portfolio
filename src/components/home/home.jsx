@@ -6,10 +6,7 @@ const Home = () => {
     <>
       <div className="container" id="home">
         <div className="row">
-          <div
-            className="col-lg-6 col-md-12"
-            style={{ marginTop: "70px", marginBottom: "70px" }}
-          >
+          <div className="col-lg-6 col-md-12">
             <div className="fs-22 text-captalize">Hi There! I'm</div>
             <Typewriter
               className="fs-56"
