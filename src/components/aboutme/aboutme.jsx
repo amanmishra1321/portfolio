@@ -30,16 +30,10 @@ const AboutMe = () => {
               style={{ width: "10%", height: "4px" }}
             />
             <p className="secondary-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              consectetur tempore ratione. Autem qui omnis suscipit aut
-              explicabo quisquam incidunt, vitae soluta, eius assumenda eum
-              tenetur nostrum blanditiis quaerat id!
+            As an algorithm expert, I have skilled in designing and implementing complex algorithms to solve a variety of problems, from data analysis to optimization. The expertise in this area allows me to develop algorithms that are accurate, and reliable, making them a valuable asset to any project.
             </p>
             <p className="secondary-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus laudantium esse laborum natus. Sapiente inventore
-              cupiditate earum esse ipsum fugiat sunt fuga. Perspiciatis iure
-              temporibus, voluptatem accusantium dicta saepe sunt.
+            Whether you're looking to build a new website from scratch or improve an existing one, I have the skills and expertise to deliver results that exceed your expectations. With a focus on delivering high-quality work on time and on budget, I am committed to helping clients achieve their goals and grow their businesses online.
             </p>
             <div className="container">
               <div className="row">

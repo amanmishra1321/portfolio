@@ -22,10 +22,7 @@ const Home = () => {
             />
             <br />
             <p className="w-90 d-block fs-20 secondary-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              reiciendis ex reprehenderit quas quam tempora aliquam cum
-              asperiores ea sequi nesciunt fugiat id, delectus fuga expedita in,
-              placeat nisi voluptatem!
+            I am, a website developer and algorithm expert with a passion for creating innovative solutions. With 2+ years of experience in the industry, I have worked with a diverse range of clients, from small businesses to large corporations, to develop custom websites and algorithms tailored to their unique needs.
             </p>
             <button className="my-5 p-3 rounded border-2">Download CV</button>
           </div>

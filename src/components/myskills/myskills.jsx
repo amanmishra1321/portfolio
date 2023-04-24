@@ -14,7 +14,8 @@ function MySkills() {
               <AiTwotoneStar />
               <AiTwotoneStar />
               <AiTwotoneStar />
-              <AiOutlineStar style={{ color: "yellow !important" }} />
+              <AiTwotoneStar />
+              {/* <AiOutlineStar style={{ color: "yellow !important" }} /> */}
             </div>
             <div>CSS3</div>
             <div>
@@ -30,6 +31,16 @@ function MySkills() {
               <AiTwotoneStar />
               <AiTwotoneStar />
               <AiTwotoneStar />
+              <AiTwotoneStar />
+              {/* <AiOutlineStar style={{ color: "yellow !important" }} /> */}
+            </div>
+            <div>Machine Learning</div>
+            <div>
+              <AiTwotoneStar />
+              <AiTwotoneStar />
+              <AiTwotoneStar />
+              <AiTwotoneStar />
+              
               <AiOutlineStar style={{ color: "yellow !important" }} />
             </div>
           </div>
@@ -40,7 +51,8 @@ function MySkills() {
               <AiTwotoneStar />
               <AiTwotoneStar />
               <AiTwotoneStar />
-              <AiOutlineStar style={{ color: "yellow !important" }} />
+              <AiTwotoneStar />
+              {/* <AiOutlineStar style={{ color: "yellow !important" }} /> */}
             </div>
             <div>DJANGO</div>
             <div>
@@ -48,7 +60,8 @@ function MySkills() {
               <AiTwotoneStar />
               <AiTwotoneStar />
               <AiTwotoneStar />
-              <AiOutlineStar style={{ color: "yellow !important" }} />
+              <AiTwotoneStar />
+              {/* <AiOutlineStar style={{ color: "yellow !important" }} /> */}
             </div>
             <div>FLASK</div>
             <div>

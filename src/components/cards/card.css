@@ -38,3 +38,44 @@
  .my-card1 {
    background-position: 50% calc(100% - var(--bottom-distance));
  } */
+
+
+ /* // Does not inherit */
+.center {
+  &:hover {
+    color: red;
+  }
+
+  /* // Set up base styles, we're going to scale instead of animating width/height */
+  &::before,
+  &::after {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform-origin: center; 
+    /* // Ensure scaling is done from the center (expands outwards) */
+  }
+
+  /* // scale3d(<scale-horizontal>, <scale-vertical>, <scale-depth>); */
+  &::before {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    transform: scale3d(0,1,1); 
+    /* // Shrink only width */
+  }
+
+  &::after {
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    transform: scale3d(1,0,1); 
+    /* // Shrink only height */
+  }
+
+  &:hover::before,
+  &:hover::after {
+    transform: scale3d(1,1,1); 
+    /* // Show full-size */
+    transition: transform 0.5s;
+  }
+}
