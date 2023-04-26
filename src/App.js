@@ -4,13 +4,7 @@ import MainPage from "./pages/main-page";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route>
-          <Route path="" element={<MainPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+          <MainPage />
   );
 }
 
