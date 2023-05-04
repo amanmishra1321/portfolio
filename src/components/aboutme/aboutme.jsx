@@ -21,7 +21,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="container">
-        <div className="row gx-5">
+        <div className="row gx-md-5 gx-none">
           <div className="col-lg-4 col-md-12">
             <img src={Profile} className="img-fluid" alt="" />
           </div>
